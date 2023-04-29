@@ -44,9 +44,9 @@ def copy_metadata_and_cover(source_file, target_file, output_directory):
     print("Metadata and cover art copied successfully!")
 
 # Example usage
-source_directory = "./yt"
-target_directory = "./gdrive"
-output_directory = "./out"
+source_directory = "./yt" # Where the metadata is
+target_directory = "./gdrive" # Where the audio quality is
+output_directory = "./out" # Combined output + files from source that didnt have a match
 
 # Get the list of MP3 files in the source directory
 source_files = [file for file in os.listdir(source_directory) if file.endswith(".mp3")]

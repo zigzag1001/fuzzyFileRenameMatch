@@ -2,8 +2,8 @@ import os
 from fuzzywuzzy import fuzz
 
 # Path to the directories
-first_directory = './yt'
-second_directory = './gdrive'
+first_directory = './yt' # Where proper filenames are
+second_directory = './gdrive' # Where to rename files
 
 # Get the list of files in both directories
 first_files = os.listdir(first_directory)
